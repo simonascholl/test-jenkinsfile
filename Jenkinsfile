@@ -6,9 +6,6 @@ node{
   }
 }
 
-node{
-  stage 'other'
-}
 
 node{
   stage 'Publish JUnit'
