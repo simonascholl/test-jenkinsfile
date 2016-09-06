@@ -9,7 +9,8 @@ node{
   stage 'Start Tests'
       parallel(
           'p1':{},
-          'p2':{}
+          'p2':{},
+          'p3':{}
       )
 }
 
