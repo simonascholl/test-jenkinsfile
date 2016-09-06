@@ -12,6 +12,11 @@ node{
           'p2':{}
       )
 }
+
+node{
+  stage 'other'
+}
+
 node{
   stage 'Publish JUnit'
 }
