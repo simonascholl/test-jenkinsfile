@@ -1,4 +1,4 @@
-stage 'U1'{
+stage 'U1':{
 node{
   stage 'Setup Systems'
   node{
