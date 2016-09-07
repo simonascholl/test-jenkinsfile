@@ -15,9 +15,7 @@ node{
 
 node{
   stage 'other'
-  'p1':{
-        echo 'stuff'
-      }
+  'p1':{}
 }
 node{
   stage 'Wait for User input'
