@@ -5,17 +5,20 @@ node{
 }
 node{
   stage 'Start Tests'
-      parallel(
-          'p1':{
-            input message: 'Continue computation?', submitter: 'admin'
-          },
-          'p2':{},
-          'p3':{}
-      )
+    parallel(
+        'p1':{},
+        'p2':{},
+        'p3':{}
+    )
 }
 
 node{
   stage 'other'
+}
+
+node{
+  stage 'Wait for User input'
+    input message: 'Continue computation?', submitter: 'admin'
 }
 
 node{
