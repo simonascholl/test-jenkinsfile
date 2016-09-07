@@ -6,7 +6,9 @@ node{
 node{
   stage 'Start Tests'
       parallel(
-          'p1':{},
+          'p1':{
+            input message: 'Continue computation?', submitter: 'admin'
+          },
           'p2':{},
           'p3':{}
       )
