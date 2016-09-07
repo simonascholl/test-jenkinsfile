@@ -1,5 +1,5 @@
 node{
-  stage 'Setup Systems'
+  stage: 'Setup Systems'
     node{
     }
 }
