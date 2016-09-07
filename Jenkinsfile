@@ -1,17 +1,17 @@
 node{
-  label: stage('Setup Systems')
-  {
+  stage('Setup Systems'){
     node{
     }
   }
 }
 node{
-  stage 'Start Tests'
+  stage('Start Tests'){
     parallel(
         'p1':{},
         'p2':{},
         'p3':{}
     )
+  }
 }
 
 node{
