@@ -9,7 +9,8 @@ node{
     parallel(
         'p1':{},
         'p2':{},
-        'p3':{}
+        'p3':{},
+        failFast:false
     )
 }
 
