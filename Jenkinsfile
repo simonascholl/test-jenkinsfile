@@ -1,4 +1,3 @@
-stage 'U1':{
 node{
   stage 'Setup Systems'
   node{
@@ -15,7 +14,6 @@ node{
 
 node{
   stage 'other'
-}
 }
 node{
   stage 'Wait for User input'
