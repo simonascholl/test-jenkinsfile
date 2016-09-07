@@ -1,9 +1,7 @@
 node{
   stage 'Setup Systems'
     node{
-      'p1':{
-        echo 'stuff'
-      }
+      echo 'stuff'
     }
 }
 node{
@@ -17,6 +15,9 @@ node{
 
 node{
   stage 'other'
+  'p1':{
+        echo 'stuff'
+      }
 }
 node{
   stage 'Wait for User input'
