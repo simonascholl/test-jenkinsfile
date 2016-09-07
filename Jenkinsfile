@@ -1,6 +1,8 @@
 node{
-  label: stage 'Setup Systems'
-  node{
+  label: stage('Setup Systems')
+  {
+    node{
+    }
   }
 }
 node{
