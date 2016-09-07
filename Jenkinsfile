@@ -17,7 +17,7 @@ node{
 }
 node{
   stage 'Wait for User input'
-    input message: 'Continue computation?', submitter: 'scholl_s'
+    input message: 'Continue computation?', submitter: 'scholl_s, admin'
 }
 
 node{
