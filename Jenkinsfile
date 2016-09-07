@@ -4,14 +4,14 @@ node{
   }
 }
 node{
-  stage 'Start Tests'
-    parallel(
-        'p1':{},
-        'p2':{},
-        'p3':{
-          stage 'p3-sub'
-        }
-    )
+  label('what'){
+    stage 'Start Tests'
+      parallel(
+          'p1':{},
+          'p2':{},
+          'p3':{}
+      )
+  }
 }
 
 node{
