@@ -14,6 +14,8 @@ node{
 
 node{
   stage 'other'
+  bat'''cd lala
+  '''
 }
 node{
   stage 'Wait for User input'
