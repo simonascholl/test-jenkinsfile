@@ -22,6 +22,8 @@ node{
     input message: 'Continue computation?', submitter: 'admin'
 }
 
-node{
-  stage 'Publish JUnit'
+stages{
+  node{
+    stage 'Publish JUnit'
+  }
 }
